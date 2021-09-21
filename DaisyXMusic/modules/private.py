@@ -39,7 +39,7 @@ def _start(client, message):
         parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup(
             [[
-               InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+               InlineKeyboardButton("➕ Group me daal de bsdk 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
                InlineKeyboardButton("📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"),
